@@ -1,0 +1,370 @@
+/* Extra small devices (portrait phones, less than 576px) */
+@media (max-width: 575.98px) {
+  /* header */
+  .logo{
+    width: 100px;
+}
+  .menu ul li {
+    padding: 0px 5px;
+}
+.c_btn{
+    padding: 8px 20px;
+}
+ /* banner */
+ .b_text {
+    padding: 40px 0px 0px 0px;
+}
+.cm_h2{
+    font-size: 25px;
+}
+.cm_p {
+    padding: 20px 0px 20px;
+    font-size: 16px;
+}
+.b_icon ul li a i {
+    font-size: 16px;
+}
+.face {
+    padding: 12px 15px;
+}
+.link {
+    padding: 13px 14px;
+}
+.git {
+    padding: 13px 14px;
+}
+.you {
+    padding: 13px 12px;
+}
+/* about */
+.about {
+    padding: 60px 0px;
+    background-color: var(--black);
+}
+.ab_text p {
+    padding: 30px 0px 50px;
+    font-size: 16px;
+}
+.ab_btn a{
+    margin-bottom: 20px;
+}
+/* skills */
+.skills {
+    padding: 60px 0px;
+}
+.skills_range {
+    padding: 30px 0px 0px;
+}
+.skills_range h2 {
+    font-size: 18px;
+}
+.bar{
+    padding: 0px 20px 0px 0px;
+    font-size: 14px;
+}
+/* service */
+.service {
+    padding: 60px 0px 40px;
+}
+.service_title{
+    padding: 0px 0px 50px;
+}
+.service_box h2 {
+    font-size: 18px;
+}
+/* portfolio */
+.portfolio{
+    padding: 60px 0px 45px;
+}
+.mix_menu ul li button {
+    padding: 5px 15px;
+    font-size: 16px;
+}
+.mix_menu ul li{
+    margin-bottom: 15px;
+}
+.mix_item_box {
+    padding: 40px 0px 0px;
+}
+.over_icon i {
+    padding: 100px 0px 0px 0px;
+    font-size: 40px;
+}
+.mix_menu ul li a{
+    display: inline-block;
+}
+.mix_menu ul li{
+    margin-bottom: 10px;
+}
+.mix_over{
+    align-content: center;
+}
+.over_icon i {
+    padding: 0px;
+    font-size: 40px;
+}
+.over_box{
+    display: none;
+}
+/* review */
+.r_box {
+    padding: 20px;
+}
+ }
+
+/* Small devices (landscape phones, 576px and up) */
+@media (min-width: 576px) and (max-width: 767.98px) {
+  /* header */
+  .logo{
+    width: 120px;
+}
+  .menu ul li {
+    padding: 0px 5px;
+}
+.c_btn{
+    padding: 8px 20px;
+}
+ /* banner */
+ .b_text {
+    padding: 40px 0px 0px 0px;
+}
+.cm_h2{
+    font-size: 25px;
+}
+.cm_p{
+    padding: 30px 0px 50px;
+    font-size: 16px;
+}
+.b_icon ul li a i {
+    font-size: 18px;
+}
+.face {
+    padding: 12px 15px;
+}
+.link {
+    padding: 13px 14px;
+}
+.git {
+    padding: 13px 14px;
+}
+.you {
+    padding: 13px 12px;
+}
+/* about */
+.about {
+    padding: 60px 0px;
+    background-color: var(--black);
+}
+.ab_text p {
+    padding: 30px 0px 50px;
+    font-size: 16px;
+}
+/* skills */
+.skills {
+    padding: 60px 0px 40px;
+}
+.skills_range {
+    padding: 30px 0px 0px;
+}
+.skills_range h2 {
+    font-size: 18px;
+}
+.bar{
+    padding: 0px 20px 0px 0px;
+    font-size: 14px;
+}
+/* service */
+.service {
+    padding: 60px 0px;
+}
+.service_title{
+    padding: 0px 0px 50px;
+}
+.service_box h2 {
+    font-size: 18px;
+}
+/* portfolio */
+.portfolio{
+    padding: 60px 0px 45px;
+}
+.mix_menu ul li button {
+    padding: 5px 15px;
+    font-size: 16px;
+}
+.over_icon i {
+    padding: 100px 0px 0px 0px;
+    font-size: 40px;
+}
+.mix_menu ul li{
+    margin-bottom: 15px;
+}
+.over_box h2{
+    font-size: 20px;
+}
+
+}
+/* Medium devices (tablets, 768px and up) */
+@media (min-width: 768px) and (max-width: 991.98px) {
+    /* header */
+    .logo{
+        width: 140px;
+    }
+      .menu ul li {
+        padding: 0px 5px;
+    }
+    .c_btn{
+        padding: 8px 20px;
+    }
+    /* banner */
+    .b_text {
+        padding: 40px 0px 0px 0px;
+    }
+    .cm_h2 {
+        font-size: 40px;
+    }
+    .cm_p {
+        padding: 30px 0px 50px;
+        font-size: 18px;
+    }
+    
+    
+    /* about */
+    .about {
+        padding: 80px 0px;
+        background-color: var(--black);
+    }
+    .ab_text p {
+        padding: 30px 0px 50px;
+        font-size: 16px;
+    }
+    /* skills */
+    .skills {
+        padding: 80px 0px 60px;
+    }
+    .skills_range {
+        padding: 30px 30px 0px;
+    }
+    .skills_range h2 {
+        font-size: 22px;
+    }
+    .bar{
+        padding: 0px 20px 0px 0px;
+    }
+    /* service */
+    .service {
+        padding: 80px 0px;
+    }
+    .service_title{
+        padding: 0px 0px 50px;
+    }
+    .service_box h2 {
+        font-size: 22px;
+    }
+    /* portfolio */
+    .portfolio{
+        padding: 80px 0px 65px;
+    }
+    .mix_menu ul li button {
+        padding: 5px 15px;
+        font-size: 16px;
+    }
+    .mix_menu ul li{
+        margin-bottom: 15px;
+    }
+    .over_icon i {
+        padding: 60px 0px 0px 0px;
+        font-size: 40px;
+    }
+    .over_box h2{
+        font-size: 20px;
+    }
+    .over_box p{
+        line-height: 22px;
+    }
+ }
+
+/* Large devices (desktops, 992px and up) */
+@media (min-width: 992px) and (max-width: 1199.98px) { 
+  /* header */
+  .logo{
+    width: 140px;
+}
+  .menu ul li {
+    padding: 0px 5px;
+}
+.c_btn{
+    padding: 8px 20px;
+}
+    /* banner */
+    .b_text {
+        padding: 80px 0px 0px 10px;
+    }
+    .cm_h2 {
+        font-size: 40px;
+    }
+    .b_icon ul li a i {
+        font-size: 20px;
+    }
+    /* about */
+    .ab_text{
+        padding: 0px;
+    }
+    .ab_text p {
+        padding: 30px 0px 80px;
+        font-size: 16px;
+    }
+    /* skills */
+    .skills_range {
+        padding: 50px 130px 0px;
+    }
+    .skills_range h2 {
+        font-size: 22px;
+    }
+    .bar{
+        padding: 0px 20px 0px 0px;
+    }
+    /* service */
+    .service_box h2 {
+        font-size: 22px;
+    }
+    /* portfolio */
+    .mix_menu ul li button {
+        padding: 5px 15px;
+        font-size: 16px;
+    }
+    .over_icon i {
+        padding: 115px 0px 0px 0px;
+        font-size: 45px;
+    }
+    /* review */
+    .r_box {
+        padding: 20px;
+    }
+    
+    
+}
+
+/* Extra large devices (large desktops, 1200px and up) */
+@media (min-width: 1200px) and (max-width: 1399.98px) {
+  /* banner */
+    .b_text {
+        padding: 120px 0px 0px 30px;
+    }
+    /* about */
+    .ab_text p {
+        padding: 30px 0px 90px;
+    }
+    /* portfolio */
+    .mix_menu ul li button {
+        padding: 8px 25px;
+    }
+    .over_icon i {
+        padding: 160px 0px 0px 0px;
+    }
+ }
+ 
+/* Extra extra large devices (large desktops, 1400px and up) */
+@media (min-width: 1400px) {
+  
+ }
+

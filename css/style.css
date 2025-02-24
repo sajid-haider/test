@@ -1,0 +1,425 @@
+/* font */
+@import url('https://fonts.googleapis.com/css2?family=Playfair+Display:ital,wght@0,400..900;1,400..900&family=Poppins:ital,wght@0,300;0,400;0,500;0,600;0,700;0,800;0,900;1,400&display=swap');
+/* common */
+:root{
+
+    --black    :   #000000;
+    --black2   :   #0f1115;
+    --whire    :   #ffffff;
+    --green    :   #28e98c;
+    --gree2    :   #136a13;
+    --ash      :   #909090;
+    --over     :  #0f1115bb;
+
+    --pop      :    "Poppins", serif;
+    --ply      :    "Playfair Display", serif;
+
+}
+
+* {
+    margin: 0;
+    padding: 0;
+    border: none;
+    outline: none;
+    box-shadow: none;
+    scrollbar-width: thin;
+    scrollbar-color: var(--green) var(--gree2);
+}
+
+a{
+    text-decoration: none;
+}
+
+body{
+    font-family: var(--pop);
+    font-size: 16px;
+    font-weight: 400;
+    color: var(--ash);
+    line-height: 28px;
+    background-color: var(--black2);
+}
+
+/* header strat */
+header{
+    padding: 2px 0px;
+    background-color: var(--black);
+    position: sticky;
+    top: 0%;
+    left: 0%;
+    z-index: 999;
+}
+.logo{
+    width: 180px;
+}
+/* ----- menu ------ */
+.menu ul li{
+    padding: 0px 10px;
+}
+.menu ul li a{
+    font-size: 20px;
+    font-weight: 600;
+    color: var(--green);
+}
+.active{
+    color: var(--green);
+}
+.menu ul li a:hover{
+    color: var(--whire);
+}
+/* ----- button ---- */
+.c_btn{
+    padding: 12px 30px;
+    font-family: var(--pop);
+    font-size: 16px;
+    font-weight: 600;
+    color: var(--green);
+    border: 1px solid var(--green);
+    transition: 0.4s;
+}
+.c_btn span{
+    padding-left: 10px;
+}
+.ch_btn:hover{
+    background-color: var(--green);
+    color: var(--black);
+    border-color: var(--green);
+}
+/* ------ mobile menu ----- */
+.mobile_menu{
+    background-color: var(--black);
+}
+.m_on_btn{
+    font-size: 25px;
+    color: var(--green);
+}
+.m_menu_title{
+    color: var(--whire);
+}
+.m_off_btn i{
+    font-size: 25px;
+    color: var(--green);
+}
+/* header end */
+/* banner start */
+.banner{
+    padding: 40px 0px;
+}
+.b_img img{
+    width: 100%;
+    border-radius: 10px;
+}
+/* ----- banner text ---- */
+.b_text{
+    padding: 150px 0px 0px 30px;
+}
+.cm_h2{
+    font-family: var(--ply);
+    font-size: 50px;
+    font-weight: 700;
+    color: var(--whire);
+}
+.cm_h2 span{
+    color: var(--green);
+}
+.cm_p{
+    padding: 30px 0px 80px;
+    font-size: 20px;
+    color: var(--whire);
+}
+.b_icon ul li a i{
+    font-size: 25px;
+    color: var(--green);
+    border: 2px solid var(--green);
+    border-radius: 50%;
+    transition: 0.4s;
+}
+/* icons */
+.face{
+    padding: 15px 20px;
+}
+.link{
+    padding: 15px 16px;
+}
+.git{
+    padding: 15px 16px;
+}
+.you{
+    padding: 16px 15px;
+}
+/* icons */
+.b_icon ul li a:hover i{
+    background-color: var(--green);
+    color: var(--black);
+}
+/* banner end */
+/* about start */
+.about{
+    padding: 100px 0px;
+    background-color: var(--black);
+}
+.ab_text{
+    padding: 50px 0px 0px;
+}
+.ab_text p{
+    padding: 30px 0px 170px;
+    font-size: 16px;
+}
+.ab_text p span{
+    color: var(--green);
+}
+.ab_btn a:first-child{
+    margin-right:  20px;
+ }
+ .ab_img img{
+    border-radius: 10px;
+ }
+/* about end */
+/* skill strat */
+.skills{
+    padding: 100px 0px;
+}
+.skills_range{
+    padding: 50px 200px 0px;
+}
+.skills_range h2{
+    margin: 20px 0px 10px !important;
+    font-family: var(--ply);
+    font-size: 25px;
+    font-weight: 600;
+    color: var(--green);
+}
+.skill_wrap{
+    padding: 4px;
+    width: 100%;
+    background-color: var(--whire);
+    border-radius: 33px;
+}
+.bar{
+    padding: 2px 0px;
+    font-family: var(--pop);
+    font-size: 16px;
+    font-weight: 600;
+    color: var(--black);
+    text-align: right;
+}
+.html_css{
+    padding-right: 20px;
+    width: 95%;
+    background-color: var(--green);
+    border-radius: 33px;
+}
+.JavaScript{
+    padding-right: 20px;
+    width: 70%;
+    background-color: var(--green);
+    border-radius: 33px;
+}
+.WordPress{
+    padding-right: 20px;
+    width: 90%;
+    background-color: var(--green);
+    border-radius: 33px;
+}
+.php{
+    padding-right: 20px;
+    width: 75%;
+    background-color: var(--green);
+    border-radius: 33px;
+}
+/* skill end */
+/* service strat */
+.service{
+    padding: 100px 0px 80px;
+    background-color: var(--black);
+}
+.service_title{
+    padding: 0px 0px 70px;
+}
+.service_box{
+    margin-bottom: 25px;
+    padding: 50px 30px;
+    border: 1px solid var(--green);
+    border-radius: 10px;
+    transition: 0.4s;
+}
+.service_icon{
+    padding: 10px;
+}
+.service_icon img{
+    width: 80px;
+}
+.service_box h2{
+    padding: 20px 0px 10px;
+    font-family: var(--ply);
+    font-size: 25px;
+    font-weight: 600;
+    color: var(--whire);
+}
+.service_box p{
+    color: var(--ash);
+}
+.service_box:hover{
+    background-color: var(--green);
+}
+.service_box:hover h2{
+    color: var(--black);
+}
+.service_box:hover p{
+    color: var(--black);
+}
+/* service end */
+/* counter strat */
+.counter_number{
+    padding: 50px 0px;
+}
+/* counter end */
+/* portfolio strat */
+.portfolio{
+    padding: 100px 0px;
+}
+/* ----- mix menu ---- */
+.mix_menu ul li button{
+    padding: 8px 28px;
+    font-family: var(--pop);
+    font-size: 18px;
+    font-weight: 600;
+    color: var(--whire);
+    background-color: transparent;
+    border: 2px solid var(--green);
+    border-radius: 5px;
+    transition: 0.4s;
+}
+.mix_menu ul li a{
+    padding: 8px 28px;
+    font-family: var(--pop);
+    font-size: 18px;
+    font-weight: 600;
+    color: var(--whire);
+    background-color: transparent;
+    border: 2px solid var(--green);
+    border-radius: 5px;
+    transition: 0.4s;
+}
+.mix_menu ul li a span{
+    padding-left: 5px;
+}
+.mix_menu ul li button:hover{
+    color: var(--black);
+    background-color: var(--green);
+}
+
+.mix_menu ul li a:hover{
+    color: var(--black);
+    background-color: var(--green);
+}
+/* ----- mix menu ---- */
+/* ---- mix item ----- */
+.mix_item_box{
+    padding: 80px 0px 0px;
+}
+.mix_item{
+  margin-bottom: 30px;
+  position: relative;
+}
+.mix_over {
+    position: absolute;
+    top: 0%;
+    right: 0%;
+    width: 0%;
+    height: 0%;
+    background-color: var(--over);
+    opacity: 0;
+    transition: 0.5s;
+    overflow: hidden;
+}
+.mix_item:hover .mix_over{
+    opacity: 1;
+    width: 100%;
+    height: 100%;
+}
+/* ---- mix item ----- */
+/* ------ mix over ----- */
+.over_icon i{
+    padding: 180px 0px 0px 0px;
+    font-size: 50px;
+    color: var(--green);
+}
+.over_box{
+    padding: 20px;
+    position: absolute;
+    bottom: 0%;
+    left: 0%;
+    width: 100%;
+    background-color: var(--green);
+}
+.over_box h2{
+    font-family: var(--pop);
+    font-size: 25px;
+    font-weight: 600;
+    color: var(--black);
+}
+.over_box p{
+    color: var(--black2);
+}
+/* ------ mix over ----- */
+/* portfolio end */
+/* review strat */
+.review{
+    padding: 100px 0px;
+    background-color: var(--black);
+}
+.r_box{
+    margin: 0px 15px;
+    padding: 30px;
+    border: 2px solid var(--green);
+    border-radius: 10px;
+}
+.r_img{
+    width: 60px;
+}
+.r_img img{
+    border-radius: 50%;
+}
+.r_box h2{
+    padding: 10px 0px 15px;
+    font-family: var(--pop);
+    font-size: 20px;
+    font-weight: 600;
+    color: var(--whire);
+    text-align: center;
+}
+.r_star{
+
+}
+.r_star ul{
+    padding: 0px;
+}
+.r_star ul li{
+    margin-right: 0px !important;
+    padding: 0px 3px;
+}
+.r_star ul li i{
+    color: var(--green);
+}
+.r_box p{
+    padding: 10px 0px 0px;
+    color: var(--whire);
+    text-align: center;
+}
+/* dot */
+.slick-dots {
+    bottom: -65px;
+}
+.slick-dots li button:before {
+    opacity: 1;
+    color: var(--green);
+}
+.slick-dots li.slick-active button:before {
+    opacity: 1;
+    color: var(--whire);
+}
+.slick-dots li button {
+    border: 2px solid var(--green);
+    border-radius: 50%;
+}
+/* review end */
